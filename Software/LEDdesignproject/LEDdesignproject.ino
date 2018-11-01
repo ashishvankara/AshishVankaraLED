@@ -46,21 +46,25 @@ void loop() {
 
 void buttonPress()
 {
+  
   if(button_state>=5){
     button_state=0;
   }
   else{
     button_state++; 
   }
+  
 }
 
 void blinking(){
+  
   //Blink LED at x Hz
   int delay_time = (500/blink_frequency);
   digitalWrite(LEDPin, HIGH);
   delay(delay_time);
   digitalWrite(LEDPin, LOW);
   delay(delay_time);
+  
 }
 
   
