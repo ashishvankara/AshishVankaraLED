@@ -1,4 +1,4 @@
-const int LEDPin = 7;
+const int LEDPin = 6;
 const int interruptPin = 3;
 int button_state = 0;
 int PWM = 255;
