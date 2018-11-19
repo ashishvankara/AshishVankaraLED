@@ -4539,7 +4539,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="GND5" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 <part name="GND1" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 <part name="GND4" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
-<part name="SW100" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="SWITCH_PUSHBUTTON" device="EVQ-PE" package3d_urn="urn:adsk.eagle:package:6240957/1"/>
+<part name="$$SW100" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="SWITCH_PUSHBUTTON" device="EVQ-PE" package3d_urn="urn:adsk.eagle:package:6240957/1"/>
 <part name="S100" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="EG1218" device="S" package3d_urn="urn:adsk.eagle:package:6240649/1"/>
 <part name="C1" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="025-030X050" package3d_urn="urn:adsk.eagle:package:6240322/1">
 <attribute name="BYPASS1" value=".33 uF"/>
@@ -4592,7 +4592,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <instance part="GND4" gate="1" x="17.78" y="73.66">
 <attribute name="VALUE" x="17.78" y="73.406" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="SW100" gate="G$1" x="101.6" y="22.86">
+<instance part="$$SW100" gate="G$1" x="101.6" y="22.86">
 <attribute name="NAME" x="99.06" y="26.416" size="1.27" layer="95"/>
 <attribute name="VALUE" x="99.06" y="20.574" size="1.27" layer="96"/>
 </instance>
@@ -4755,7 +4755,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <net name="N$6" class="0">
 <segment>
 <pinref part="IC1" gate="IC" pin="(OC2B/INT1)PD3"/>
-<pinref part="SW100" gate="G$1" pin="P$1"/>
+<pinref part="$$SW100" gate="G$1" pin="P$1"/>
 <wire x1="91.44" y1="17.78" x2="96.52" y2="17.78" width="0.1524" layer="91"/>
 <wire x1="96.52" y1="17.78" x2="96.52" y2="22.86" width="0.1524" layer="91"/>
 <junction x="96.52" y="17.78"/>
@@ -4780,7 +4780,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <junction x="15.24" y="83.82"/>
 </segment>
 <segment>
-<pinref part="SW100" gate="G$1" pin="P$2"/>
+<pinref part="$$SW100" gate="G$1" pin="P$2"/>
 <wire x1="35.56" y1="83.82" x2="40.64" y2="83.82" width="0.1524" layer="91"/>
 <wire x1="40.64" y1="83.82" x2="106.68" y2="83.82" width="0.1524" layer="91"/>
 <wire x1="106.68" y1="83.82" x2="106.68" y2="22.86" width="0.1524" layer="91"/>
