@@ -15,7 +15,7 @@ int LEDState = LOW;
 
 //Initialize debouncing variables
 unsigned long lastDebounceTime = 0; 
-unsigned long debounceDelay = 100;
+unsigned long debounceDelay = 200;
 
 void setup() 
 {
